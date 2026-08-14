@@ -23,9 +23,9 @@ kvantitativno vrednotenje sistema.
 Sistem in evalvacija sta bila izvedena na štirih video posnetkih nogometnih tekem:
 
 - **`bay-psg-shot.mp4`** — kratek izsek s strelom na gol.
-- **`bay-psg-base.mp4`** — osnovni referenčni posnetek.
-- **`bay-psg-long.mp4`** — daljši posnetek za vrednotenje stabilnosti sledenja skozi čas.
-- **`int-como.mp4`** — posnetek druge tekme, uporabljen za preverjanje posplošljivosti sistema na drugačne dresne barve, kamere in osvetlitev.
+- **`psg-bay.mp4`** — osnovni referenčni posnetek.
+- **`psg-bay-long.mp4`** — daljši posnetek za vrednotenje stabilnosti sledenja skozi čas.
+- **`como-int 16.36.24.mp4`** — posnetek druge tekme, uporabljen za preverjanje posplošljivosti sistema na drugačne dresne barve, kamere in osvetlitev.
 
 Za vsak posnetek so na voljo pripadajoče `gt.txt` in `labels.txt` datoteke v mapi `gt/`.
 
