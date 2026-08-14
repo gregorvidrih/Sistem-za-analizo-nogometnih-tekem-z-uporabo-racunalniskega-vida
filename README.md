@@ -15,7 +15,7 @@ kvantitativno vrednotenje sistema.
 | `notebooks/sistem_za_analizo.ipynb` | Glavni Jupyter/Colab zvezek s celotnim sistemom: detekcija (RF-DETR), sledenje igralcev (SAM2) in žoge (Kalmanov filter), določanje pripadnosti ekipam (SigLIP + UMAP + KMeans), detekcija ključnih točk igrišča, homografska projekcija in prepoznavanje dogodkov. |
 | `notebooks/evalvacija.ipynb` | Evalvacijski zvezek, ki napovedi sistema primerja z ročno anotiranimi referenčnimi podatki (`gt/`) in izračuna standardne MOT metrike (MOTA, IDF1, IDSW, net IDSW) ter metrike za sledenje majhnim objektom (Tracking Rate, CLE, Precision@k, Success AUC). |
 | `gt/` | Ročno anotirane sledi objektov (igralci, vratarji, sodniki, žoga) v formatu MOT 1.1, izvožene iz orodja [CVAT.ai](https://www.cvat.ai/), za vsak od štirih video posnetkov. |
-| `videos/` | Izvorni video posnetki nogometnih tekem, nad katerimi je bila izvedena anotacija in nad katerimi teče celoten sistem: `bay-psg-shot.mp4`, `bay-psg-base.mp4`, `bay-psg-long.mp4`, `int-como.mp4`. |
+| `videos/` | Izvorni video posnetki nogometnih tekem, nad katerimi je bila izvedena anotacija in nad katerimi teče celoten sistem: `bay-psg-shot.mp4`, `psg-bay.mp4`, `psg-bay-long.mp4`, `como-int 16.36.24.mp4`. |
 | `results/` | Rezultati sledenja in evalvacije (`.csv`, `.pkl`) za vse štiri video posnetke, uporabljeni v diplomski nalogi. |
 
 ## Video posnetki
