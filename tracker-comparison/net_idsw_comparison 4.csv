@@ -1,0 +1,5 @@
+Method,GT sledi (ujemane),Standardni IDSW,Prehodni (transient) IDSW,Net IDSW (začetek≠konec),Ohranjena identiteta (%)
+DeepSORT,20,8,8,0,100.0
+ByteTrack,20,15,11,4,80.0
+SAM2 (Vanilla),20,6,6,0,100.0
+SAM2 (Predlagani),20,0,0,0,100.0

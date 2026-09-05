@@ -1,0 +1,9 @@
+ground_truth_events = [
+    {"type": "PRESTREZANJE",     "frame": 137,  "passer": 4, "receiver": 12},
+    {"type": "PRESTREZANJE",     "frame": 285, "passer": 12,  "receiver": 2},
+    {"type": "PODAJA",     "frame": 444, "passer": 2, "receiver": 0},
+    {"type": "PRESTREZANJE",      "frame": 477, "passer": 0, "receiver": 13},
+    {"type": "PODAJA",     "frame": 503, "passer": 13, "receiver": 14},
+    {"type": "PODAJA",     "frame": 570,  "passer": 14, "receiver": 7},
+    {"type": "PODAJA",     "frame": 700, "passer": 7,  "receiver": 15},
+]

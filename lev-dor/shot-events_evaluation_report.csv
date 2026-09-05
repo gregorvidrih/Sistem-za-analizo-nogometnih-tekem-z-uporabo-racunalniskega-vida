@@ -1,0 +1,4 @@
+﻿Tip dogodka,GT (Dejanski),Zaznani (DET),TP,FP,FN,Precision (%),Recall (%),F1-score (%)
+PODAJA,4,4,3,1,1,75.0,75.0,75.0
+PRESTREZANJE,3,5,2,3,1,40.0,66.7,50.0
+SKUPAJ (Overall),7,9,5,4,2,55.6,71.4,62.5

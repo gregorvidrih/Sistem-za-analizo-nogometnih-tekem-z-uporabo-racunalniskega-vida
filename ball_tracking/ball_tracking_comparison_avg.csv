@@ -1,0 +1,5 @@
+Metoda,Tracking Rate (%),CLE povprečje (px),CLE mediana (px),Precision@10px (%),Precision@20px (%),Success AUC
+DeepSORT,91.2,134.673,97.393,22.233,26.067,0.282
+ByteTrack,14.65,374.5,331.978,6.15,6.35,0.06
+SAM2 (Vanilla),64.083,256.907,226.902,26.767,34.45,0.317
+RF-DETR + Kalman (predlagani),96.967,6.242,3.112,81.683,90.633,0.858

@@ -1,0 +1,11 @@
+ground_truth_events = [
+    {"type": "PODAJA",     "frame": 56,  "passer": 12, "receiver": 7},
+    {"type": "PODAJA",     "frame": 89, "passer": 7,  "receiver": 12},
+    {"type": "PODAJA",     "frame": 130, "passer": 12, "receiver": 2},
+    {"type": "PODAJA",      "frame": 164, "passer": 2, "receiver": 4},
+    {"type": "PODAJA",     "frame": 206, "passer": 4, "receiver": 7},
+    {"type": "PODAJA",     "frame": 251,  "passer": 7, "receiver": 3},
+    {"type": "PODAJA",     "frame": 279, "passer": 3,  "receiver": 2},
+    {"type": "PODAJA",     "frame": 333, "passer": 2, "receiver": 1},
+    {"type": "PRESTREZ",      "frame": 447, "passer": 1, "receiver": 2000},
+]

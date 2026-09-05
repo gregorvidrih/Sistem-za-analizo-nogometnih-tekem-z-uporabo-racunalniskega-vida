@@ -1,0 +1,5 @@
+Metoda,Skupaj okvirjev,Skupni čas (s),Povprečni FPS,Čas na okvir (ms)
+DeepSORT,3554,2363.52,1.504,665.03
+ByteTrack,3554,1450.45,2.45,408.12
+SAM2 (Vanilla),3554,24618.31,0.144,6926.93
+SAM2 (Predlagani),3554,25729.1,0.138,7239.48
