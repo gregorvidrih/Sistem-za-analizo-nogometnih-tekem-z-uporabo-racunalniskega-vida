@@ -2,16 +2,21 @@
 
 Diplomska naloga, objavljena leta 2026.
 
-Repozitorij vsebuje rezultate sledenja in evalvacije sistema za analizo
-nogometnih tekem z računalniškim vidom, pridobljene na šestih testnih
-videoposnetkih, ki so bili uporabljeni za kvantitativno vrednotenje sistema
-v diplomski nalogi.
+Repozitorij vsebuje celoten sistem za analizo nogometnih tekem z računalniškim
+vidom — glavni zvezek s sistemom ter evalvacijski zvezek — skupaj z rezultati
+sledenja in evalvacije, pridobljenimi na šestih testnih videoposnetkih, ki so
+bili uporabljeni za kvantitativno vrednotenje sistema v diplomski nalogi.
 
 ## Vsebina repozitorija
 
-Repozitorij je razdeljen na dve vrsti map: **mape posameznih testnih
-posnetkov** (rezultati in evalvacija za en sam video) ter **zbirne mape**
-(rezultati, združeni čez vseh šest posnetkov, uporabljeni za izračun
+| Datoteka / mapa | Opis |
+|---|---|
+| `sistem_za_analizo.ipynb` | Glavni Jupyter/Colab zvezek s celotnim sistemom: detekcija (RF-DETR), sledenje igralcev (SAM2) in žoge (Kalmanov filter), določanje pripadnosti ekipam (SigLIP + UMAP + KMeans), detekcija ključnih točk igrišča, homografska projekcija in prepoznavanje dogodkov. |
+| `evalvacija.ipynb` | Evalvacijski zvezek, ki napovedi sistema primerja z ročno anotiranimi referenčnimi podatki in izračuna standardne MOT metrike (MOTA, MOTP, IDF1, IDSW, net IDSW) ter metrike za sledenje majhnim objektom (Tracking Rate, CLE, Precision@k, Success AUC). |
+
+Preostanek repozitorija je razdeljen na dve vrsti map: **mape posameznih
+testnih posnetkov** (rezultati in evalvacija za en sam video) ter **zbirne
+mape** (rezultati, združeni čez vseh šest posnetkov, uporabljeni za izračun
 povprečij oziroma vsot v diplomski nalogi).
 
 ### Mape testnih posnetkov
@@ -70,10 +75,19 @@ nogometnih tekem:
 - **liv-mci-pass** — izsek posnetka Liverpool – Manchester City s podajo
 - **liv-mci-shot** — izsek posnetka Liverpool – Manchester City s strelom na gol
 
-## Opomba
+## Uporaba
 
-V repozitorij bosta naknadno dodani še datoteki `sistem_za_analizo.ipynb`
-(glavni zvezek s celotnim sistemom za detekcijo, sledenje, določanje
-pripadnosti ekipam, projekcijo na 2D model igrišča in prepoznavanje
-dogodkov) ter `evalvacija.ipynb` (zvezek za izračun zgoraj opisanih
-evalvacijskih metrik).
+1. Odpri `sistem_za_analizo.ipynb` v Google Colabu ali lokalnem Jupyter
+   okolju in ga poženi nad izbranim posnetkom iz ene od map testnih
+   posnetkov, da dobiš napovedane sledi in ostale vmesne rezultate sistema.
+2. Odpri `evalvacija.ipynb` in nastavi poti do generiranih napovedi ter
+   pripadajočih referenčnih anotacij za isti posnetek.
+3. Zaženi evalvacijo — rezultati (MOT metrike za igralce, metrike za
+   sledenje žogi, net IDSW analiza, razvrščanje ekip, poravnava igrišča in
+   prepoznavanje dogodkov) se izpišejo in shranijo v ustrezno mapo
+   testnega posnetka.
+
+Za izračun agregiranih vrednosti čez vseh šest testnih posnetkov (mape v
+razdelku Zbirne mape) je bilo treba evalvacijski zvezek pognati ločeno na
+vsakem od šestih posnetkov, nato pa dobljene datoteke združiti, kot je
+opisano zgoraj.
