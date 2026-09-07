@@ -68,12 +68,12 @@ vrednosti, uporabljene v razdelku Rezultati diplomske naloge.
 Sistem in evalvacija sta bila izvedena na šestih testnih posnetkih
 nogometnih tekem:
 
-- **ars-che** — Arsenal – Chelsea
-- **bay-psg-base** — osnovni posnetek Bayern – PSG
-- **bay-psg-shot** — izsek posnetka Bayern – PSG s strelom na gol
-- **lev-dor** — Leverkusen – Dortmund
-- **liv-mci-pass** — izsek posnetka Liverpool – Manchester City s podajo
-- **liv-mci-shot** — izsek posnetka Liverpool – Manchester City s strelom na gol
+- **ars-che** — Arsenal – Chelsea / pridobljeno iz https://www.youtube.com/watch?v=iQ7Em5lzEKo
+- **bay-psg-base** — osnovni posnetek Bayern – PSG / pridobljeno iz https://www.youtube.com/watch?v=fg3DmFxMWZ4
+- **bay-psg-shot** — izsek posnetka Bayern – PSG s strelom na gol / pridobljeno iz https://www.youtube.com/watch?v=fg3DmFxMWZ4
+- **lev-dor** — Leverkusen – Dortmund / pridobljeno iz https://www.youtube.com/watch?v=6-AQE74o460
+- **liv-mci-pass** — izsek posnetka Liverpool – Manchester City s podajo / pridobljeno iz https://www.youtube.com/watch?v=XckOkRuE3-4
+- **liv-mci-shot** — izsek posnetka Liverpool – Manchester City s strelom na gol / pridobljeno iz https://www.youtube.com/watch?v=XckOkRuE3-4
 
 ## Uporaba
 
