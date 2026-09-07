@@ -91,3 +91,19 @@ Za izračun agregiranih vrednosti čez vseh šest testnih posnetkov (mape v
 razdelku Zbirne mape) je bilo treba evalvacijski zvezek pognati ločeno na
 vsakem od šestih posnetkov, nato pa dobljene datoteke združiti, kot je
 opisano zgoraj.
+
+## Citiranje
+
+Če uporabite izvorno kodo ali podatke iz tega repozitorija, prosimo, obvezno citirajte naslednji prispevek:
+
+> G. Vidrih in B. Batagelj, »Sistem za analizo nogometnih tekem z računalniškim vidom«, ERK 2026.
+
+Za lažje citiranje je na voljo tudi zapis BibTeX:
+
+```bibtex
+@inproceedings{vidrih2026football,
+  author    = {Vidrih, Gregor and Batagelj, Borut},
+  title     = {Sistem za analizo nogometnih tekem z računalniškim vidom},
+  booktitle = {ERK 2026},
+  year      = {2026}
+}
