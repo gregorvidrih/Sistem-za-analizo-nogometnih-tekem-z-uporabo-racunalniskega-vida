@@ -66,14 +66,20 @@ vrednosti, uporabljene v razdelku Rezultati diplomske naloge.
 ## Video posnetki
 
 Sistem in evalvacija sta bila izvedena na šestih testnih posnetkih
-nogometnih tekem:
+nogometnih tekem, pridobljenih z YouTuba:
 
-- **ars-che** — Arsenal – Chelsea / pridobljeno iz https://www.youtube.com/watch?v=iQ7Em5lzEKo
-- **bay-psg-base** — osnovni posnetek Bayern – PSG / pridobljeno iz https://www.youtube.com/watch?v=fg3DmFxMWZ4
-- **bay-psg-shot** — izsek posnetka Bayern – PSG s strelom na gol / pridobljeno iz https://www.youtube.com/watch?v=fg3DmFxMWZ4
-- **lev-dor** — Leverkusen – Dortmund / pridobljeno iz https://www.youtube.com/watch?v=6-AQE74o460
-- **liv-mci-pass** — izsek posnetka Liverpool – Manchester City s podajo / pridobljeno iz https://www.youtube.com/watch?v=XckOkRuE3-4
-- **liv-mci-shot** — izsek posnetka Liverpool – Manchester City s strelom na gol / pridobljeno iz https://www.youtube.com/watch?v=XckOkRuE3-4
+| Mapa | Tekma | Vir posnetka |
+|---|---|---|
+| `ars-che` | Arsenal – Chelsea | [YouTube](https://www.youtube.com/watch?v=iQ7Em5lzEKo) |
+| `bay-psg-base` | Bayern – PSG (osnovni posnetek) | [YouTube](https://www.youtube.com/watch?v=fg3DmFxMWZ4) |
+| `bay-psg-shot` | Bayern – PSG (izsek s strelom na gol) | [YouTube](https://www.youtube.com/watch?v=fg3DmFxMWZ4) |
+| `lev-dor` | Leverkusen – Dortmund | [YouTube](https://www.youtube.com/watch?v=6-AQE74o460) |
+| `liv-mci-pass` | Liverpool – Manchester City (izsek s podajo) | [YouTube](https://www.youtube.com/watch?v=XckOkRuE3-4) |
+| `liv-mci-shot` | Liverpool – Manchester City (izsek s strelom na gol) | [YouTube](https://www.youtube.com/watch?v=XckOkRuE3-4) |
+
+> Video posnetki so last njihovih izvornih avtorjev/imetnikov pravic
+> (nogometne lige, TV hiše) in so bili v tem repozitoriju oziroma diplomski
+> nalogi uporabljeni izključno v raziskovalne in izobraževalne namene.
 
 ## Uporaba
 
@@ -112,3 +118,4 @@ Za lažje citiranje:
   booktitle = {ERK 2026},
   year      = {2026}
 }
+```
