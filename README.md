@@ -92,13 +92,18 @@ razdelku Zbirne mape) je bilo treba evalvacijski zvezek pognati ločeno na
 vsakem od šestih posnetkov, nato pa dobljene datoteke združiti, kot je
 opisano zgoraj.
 
+## Licenca
+
+Izvorna koda tega projekta je objavljena pod licenco MIT.
+Celotno besedilo licence je na voljo v datoteki [LICENSE](LICENSE).
+
 ## Citiranje
 
-Če uporabite izvorno kodo ali podatke iz tega repozitorija, prosimo, obvezno citirajte naslednji prispevek:
+Če uporabite izvorno kodo ali podatke iz tega repozitorija, je obvezno citirati naslednji prispevek:
 
 > G. Vidrih in B. Batagelj, »Sistem za analizo nogometnih tekem z računalniškim vidom«, ERK 2026.
 
-Za lažje citiranje je na voljo tudi zapis BibTeX:
+Za lažje citiranje:
 
 ```bibtex
 @inproceedings{vidrih2026football,
