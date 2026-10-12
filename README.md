@@ -4,6 +4,9 @@ Bachelor's thesis, published in 2026.
 
 This repository contains the complete computer-vision system for football match analysis: the main notebook with the system and the evaluation notebook, together with tracking and evaluation results from the six test videos used to quantitatively evaluate the system in the bachelor's thesis.
 
+![Product](Sistem-za-analizo-nogometnih-tekem-z-uporabo-racunalniskega-vida/sistem_za_analizo.ipynb)
+
+
 ## Repository Contents
 
 | File / folder | Description |
